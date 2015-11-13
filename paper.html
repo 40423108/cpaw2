@@ -1,0 +1,101 @@
+<!--
+這個檔案展示了 reveal.js 投影片資料的基本架構
+其中使用 "reveal" class 與 "slides" class 來界定投影片的資料範圍
+而各投影片則以 <section></section> 標示
+且支援平行與垂直的投影片配置方法
+-->
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>第三組口頭報告</title>
+<link rel="stylesheet" href="css/reveal.min.css">
+	<link rel="stylesheet" href="css/theme/default.css" id="theme">	
+	<!--增加對於 IE 早期版本的支援 -->
+	<!--[if lt IE 9]>
+	<script src="lib/js/html5shiv.js"></script>
+	<![endif]-->
+</head>
+<body>
+<!-- 將整個投影片包在 "reveal" class 中 -->
+<div class="reveal">
+<!-- 將所有投影片包在 "slides" class 中 -->
+<div class="slides">
+<!-- 以下為投影片 -->
+<!-- 每一個 section 都代表一張投影片,  -->
+<!-- section 標註中的多 section 標註, 將往下垂直延伸 -->
+<section>
+    <h1>第三組</h1>
+    <p>成員:江心平、余浩鋼、何宗哲</p>
+    <P>	       阮柏宗、周嘉原、李國豪</P>
+</section>
+	
+<section>
+    <h1>報告大綱</h1>
+    <p>1.為何選擇Python?</p>
+    <p>2.GitHub的用途。</p>
+    <p>3.GitHub的指令。</p>
+    <p>4.學習時遇到的困難。</p>
+    <p>5.解決方法。</p>
+    <p>6.總結。</p>
+</section>
+				
+<section>
+    <h1>一、為何選擇Python?</h1>
+    <p>因為相較於C+與Jave，Python的包容性比較高，較適合剛接觸程式語言的人。</p>
+</section>
+				
+<section>
+    <h1>二、GitHub的用途</h1>
+    <p>使用GitHub的主要目的在於資料的統整，與資料的回朔，因GitHub會記住每次的推送版本,，所以可以很容易地回朔至先前的板。</p>
+</section>
+				
+<section>
+    <h1>三、GitHub的指令</h1>
+    <p>☐為空格</P>
+    <p>git☐add☐-A =快照到資料庫</P>
+    <P>git☐branch =檢查目前所在分支</P>
+    <p>git☐rm☐"檔名" =刪除指定檔案</P>
+    <P>git☐branch☐分支名稱 =建立分支</P>
+    <p>git☐clone☐倉儲網址 =複製倉儲資料</P>
+    <P>git☐push☐origin☐分支名稱 =提交到倉儲分支</P>
+    <P>git☐commit☐-m☐"版本敘述" =輸入該次推送版本的敘述</P>
+    <p>git☐config☐_ _global☐user.email☐"e-mail" =輸入使用者信箱</p>
+    <p>git☐config☐_ _global☐user.name☐"name" =輸入使用者名稱</p>
+</section>
+				
+<section>
+    <h1>四、學習時與到的困難</h1>
+    <P>1.老師上課的速度有點快，有時會跟不上。</P>
+    <p>2.因老師提供的資料與檔案多半是英文，所以幾乎都看不懂。</p>
+    <P>3.課程內容是最新的資訊，所以網路上較難查詢到資訊。</P>
+</section>
+				
+<section>
+    <h1>五、解決方法</h1>
+    <p>1.利用Vimeo來複習課程內容。</p>
+    <P>2.利用Google翻譯來了解內容。</P>
+    <P>3.利用wordpress-2015course.rhcloud.com上的資訊。</P>
+</section>
+				
+<section>
+    <h1>六、總結</h1>
+    <p>1.Python適合初心者。</p>
+    <P>2.多利用Vimeo來複習課程內容。</P>
+    <P>3.加強英文能力，以利於了解最新的資訊。</P>
+    <P>4.利用GitHub來管理檔案，與統整組員資料。</P>
+    <P>5.多利用wordpress-2015course.rhcloud.com上的資訊</P>
+</section>
+				
+</div>
+</div>
+<script src="lib/js/head.min.js"></script>
+<script src="js/reveal.min.js"></script>
+<script>
+    // 啟動 Reveal.
+    Reveal.initialize({
+    });
+</script>
+	
+</body>
+
