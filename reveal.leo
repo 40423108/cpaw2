@@ -289,7 +289,22 @@
 </v>
 </v>
 </v>
-<v t="leo.20151018010446.1" a="E"><vh>@clean paper.html</vh>
+<v t="leo.20151113193209.1" a="E"><vh>@clean w1.html</vh>
+<v t="leo.20151113193209.2"><vh>檔案說明</vh></v>
+<v t="leo.20151113193209.3" a="E"><vh>html 標註</vh>
+<v t="leo.20151113193209.4" a="E"><vh>body 標註</vh>
+<v t="leo.20151113193209.5" a="E"><vh>div class="reveal"</vh>
+<v t="leo.20151113193209.6" a="E"><vh>div class="slides"</vh>
+<v t="leo.20151113193209.7"><vh>有關我的作業</vh></v>
+<v t="leo.20151113193209.8"><vh>作業任務一</vh></v>
+<v t="leo.20151113193209.9"><vh>第3張投影片</vh></v>
+</v>
+</v>
+<v t="leo.20151113193209.10"><vh>script</vh></v>
+</v>
+</v>
+</v>
+<v t="leo.20151018010446.1"><vh>@clean paper.html</vh>
 <v t="leo.20151018010446.2"><vh>檔案說明</vh></v>
 <v t="leo.20151018010446.3" a="E"><vh>html 標註</vh>
 <v t="leo.20151018010446.4" a="E"><vh>body 標註</vh>
@@ -1950,6 +1965,78 @@ jupyter notebook
     &lt;P&gt;3.加強英文能力，以利於了解最新的資訊。&lt;/P&gt;
     &lt;P&gt;4.利用GitHub來管理檔案，與統整組員資料。&lt;/P&gt;
     &lt;P&gt;5.多利用wordpress-2015course.rhcloud.com上的資訊&lt;/P&gt;
+&lt;/section&gt;
+				
+</t>
+<t tx="leo.20151113193209.1">@language xml
+@tabwidth -4
+@others
+
+</t>
+<t tx="leo.20151113193209.10">&lt;script src="lib/js/head.min.js"&gt;&lt;/script&gt;
+&lt;script src="js/reveal.min.js"&gt;&lt;/script&gt;
+&lt;script&gt;
+    // 啟動 Reveal.
+    Reveal.initialize({
+    });
+&lt;/script&gt;
+	
+</t>
+<t tx="leo.20151113193209.2">&lt;!--
+這個檔案展示了 reveal.js 投影片資料的基本架構
+其中使用 "reveal" class 與 "slides" class 來界定投影片的資料範圍
+而各投影片則以 &lt;section&gt;&lt;/section&gt; 標示
+且支援平行與垂直的投影片配置方法
+--&gt;
+</t>
+<t tx="leo.20151113193209.3">&lt;!doctype html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+&lt;meta charset="utf-8"&gt;
+&lt;title&gt;最簡單的 reveal 超文件&lt;/title&gt;
+&lt;link rel="stylesheet" href="css/reveal.min.css"&gt;
+	&lt;link rel="stylesheet" href="css/theme/default.css" id="theme"&gt;	
+	&lt;!--增加對於 IE 早期版本的支援 --&gt;
+	&lt;!--[if lt IE 9]&gt;
+	&lt;script src="lib/js/html5shiv.js"&gt;&lt;/script&gt;
+	&lt;![endif]--&gt;
+&lt;/head&gt;
+@others
+</t>
+<t tx="leo.20151113193209.4">&lt;body&gt;
+@others
+&lt;/body&gt;
+</t>
+<t tx="leo.20151113193209.5">&lt;!-- 將整個投影片包在 "reveal" class 中 --&gt;
+&lt;div class="reveal"&gt;
+@others
+&lt;/div&gt;
+</t>
+<t tx="leo.20151113193209.6">&lt;!-- 將所有投影片包在 "slides" class 中 --&gt;
+&lt;div class="slides"&gt;
+@others
+&lt;/div&gt;
+</t>
+<t tx="leo.20151113193209.7">&lt;!-- 以下為投影片 --&gt;
+&lt;!-- 每一個 section 都代表一張投影片,  --&gt;
+&lt;!-- section 標註中的多 section 標註, 將往下垂直延伸 --&gt;
+&lt;section&gt;
+    &lt;h1&gt;第一週作業&lt;/h1&gt;
+    &lt;p&gt;40423108江心平與9/18&lt;/p&gt;		
+&lt;/section&gt;
+	
+</t>
+<t tx="leo.20151113193209.8">&lt;section id="hw-task-one"&gt;
+    &lt;h1&gt;作業任務一&lt;/h1&gt;
+    &lt;p&gt;有關作業任務一的說明&lt;/p&gt;
+    &lt;p&gt;請參考 &lt;a href="http://www.google.com"&gt;Google&lt;/a&gt;
+&lt;/section&gt;
+				
+</t>
+<t tx="leo.20151113193209.9">&lt;section&gt;
+    &lt;h1&gt;第3張投影片&lt;/h1&gt;
+    &lt;p&gt;成績自評分數的量化依據?&lt;/p&gt;
+    &lt;p&gt;可以連結到內部投影片&lt;a href="#/hw-task-one"&gt;作業任務一&lt;/a&gt;
 &lt;/section&gt;
 				
 </t>
