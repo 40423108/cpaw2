@@ -421,7 +421,7 @@
 </v>
 </v>
 </v>
-<v t="leo.20160118234101.1" a="E"><vh>@clean w12.html</vh>
+<v t="leo.20160118234101.1"><vh>@clean w12.html</vh>
 <v t="leo.20160118234101.2"><vh>檔案說明</vh></v>
 <v t="leo.20160118234101.3" a="E"><vh>html 標註</vh>
 <v t="leo.20160118234101.4" a="E"><vh>body 標註</vh>
@@ -436,7 +436,7 @@
 </v>
 </v>
 </v>
-<v t="leo.20160118234103.1" a="E"><vh>@clean w13.html</vh>
+<v t="leo.20160118234103.1"><vh>@clean w13.html</vh>
 <v t="leo.20160118234103.2"><vh>檔案說明</vh></v>
 <v t="leo.20160118234103.3" a="E"><vh>html 標註</vh>
 <v t="leo.20160118234103.4" a="E"><vh>body 標註</vh>
@@ -2789,9 +2789,9 @@ jupyter notebook
 </t>
 <t tx="leo.20160118234101.9">&lt;section&gt;
     &lt;h1&gt;心得&lt;/h1&gt;
-    &lt;p&gt;這週重新設定了環境,因為近端伺服器被關閉了,所以leo要從網路先行下載。&lt;/p&gt;
-    &lt;p&gt;程式碼的部分剛開始起步,有些地方不太會。&lt;/p&gt;
-&lt;/section&gt;</t>
+    &lt;p&gt;這周要猜顏色,我試著打打看,但真的有點困難。&lt;/p&gt;
+&lt;/section&gt;
+</t>
 <t tx="leo.20160118234103.1">@language xml
 @tabwidth -4
 @others
@@ -2856,9 +2856,9 @@ jupyter notebook
 </t>
 <t tx="leo.20160118234103.9">&lt;section&gt;
     &lt;h1&gt;心得&lt;/h1&gt;
-    &lt;p&gt;這週重新設定了環境,因為近端伺服器被關閉了,所以leo要從網路先行下載。&lt;/p&gt;
-    &lt;p&gt;程式碼的部分剛開始起步,有些地方不太會。&lt;/p&gt;
-&lt;/section&gt;</t>
+    &lt;p&gt;這周要打抽點名程式,我嘗試打打看,還蠻有挑戰性的。&lt;/p&gt;
+&lt;/section&gt;
+</t>
 <t tx="leo.20160118234107.1">@language xml
 @tabwidth -4
 @others
